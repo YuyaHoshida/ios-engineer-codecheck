@@ -12,7 +12,7 @@ import ComposableArchitecture
 struct ios_engineer_codecheckApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(store: Store(initialState: ContentCore.State(), reducer: ContentCore()))
+            SerchView(store: Store(initialState: SerchCore.State(), reducer: SerchCore()))
         }
     }
 }

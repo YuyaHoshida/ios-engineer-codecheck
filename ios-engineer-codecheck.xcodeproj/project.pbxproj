@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		6992809C2B1D77AE00079E7B /* ios_engineer_codecheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6992809B2B1D77AE00079E7B /* ios_engineer_codecheckApp.swift */; };
-		6992809E2B1D77AE00079E7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6992809D2B1D77AE00079E7B /* ContentView.swift */; };
 		699280A02B1D77B100079E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6992809F2B1D77B100079E7B /* Assets.xcassets */; };
 		699280A32B1D77B100079E7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699280A22B1D77B100079E7B /* Preview Assets.xcassets */; };
-		699280AD2B1D786600079E7B /* ContentCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699280AC2B1D786600079E7B /* ContentCore.swift */; };
 		699280B62B1D830300079E7B /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 699280B52B1D830300079E7B /* ComposableArchitecture */; };
+		699280B92B1D850800079E7B /* SerchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699280B82B1D850800079E7B /* SerchView.swift */; };
+		699280BB2B1D851A00079E7B /* SerchCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699280BA2B1D851A00079E7B /* SerchCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		699280982B1D77AE00079E7B /* ios-engineer-codecheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-engineer-codecheck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6992809B2B1D77AE00079E7B /* ios_engineer_codecheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_engineer_codecheckApp.swift; sourceTree = "<group>"; };
-		6992809D2B1D77AE00079E7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6992809F2B1D77B100079E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		699280A22B1D77B100079E7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		699280AC2B1D786600079E7B /* ContentCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCore.swift; sourceTree = "<group>"; };
+		699280B82B1D850800079E7B /* SerchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerchView.swift; sourceTree = "<group>"; };
+		699280BA2B1D851A00079E7B /* SerchCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerchCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				6992809B2B1D77AE00079E7B /* ios_engineer_codecheckApp.swift */,
-				6992809D2B1D77AE00079E7B /* ContentView.swift */,
-				699280AC2B1D786600079E7B /* ContentCore.swift */,
+				699280B72B1D84EE00079E7B /* Sources */,
 				6992809F2B1D77B100079E7B /* Assets.xcassets */,
 				699280A12B1D77B100079E7B /* Preview Content */,
 			);
@@ -70,6 +69,15 @@
 				699280A22B1D77B100079E7B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		699280B72B1D84EE00079E7B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				699280B82B1D850800079E7B /* SerchView.swift */,
+				699280BA2B1D851A00079E7B /* SerchCore.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				699280AD2B1D786600079E7B /* ContentCore.swift in Sources */,
-				6992809E2B1D77AE00079E7B /* ContentView.swift in Sources */,
+				699280BB2B1D851A00079E7B /* SerchCore.swift in Sources */,
+				699280B92B1D850800079E7B /* SerchView.swift in Sources */,
 				6992809C2B1D77AE00079E7B /* ios_engineer_codecheckApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
